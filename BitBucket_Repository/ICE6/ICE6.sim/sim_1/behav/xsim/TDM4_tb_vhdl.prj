@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ICE6/code/TDM4.vhd" \
+"../../../../ICE6/code/TDM4_tb.vhd" \
+
+# Do not sort compile order
+nosort

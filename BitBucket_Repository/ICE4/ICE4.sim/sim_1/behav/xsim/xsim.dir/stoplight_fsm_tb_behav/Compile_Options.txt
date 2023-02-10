@@ -1,0 +1,1 @@
+-wto "da0786ef3b4a4d4bae9237f0b413b002" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "stoplight_fsm_tb_behav" "xil_defaultlib.stoplight_fsm_tb" -log "elaborate.log" 

@@ -1,0 +1,1 @@
+-wto "934afc5f71d64b7fb4299f7334dea588" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "thunderbird_fsm_tb_behav" "xil_defaultlib.thunderbird_fsm_tb" -log "elaborate.log" 

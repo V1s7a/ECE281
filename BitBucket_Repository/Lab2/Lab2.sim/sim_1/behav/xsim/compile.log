@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cdwil/Desktop/ECE281/ece281_colton_willits/Lab2/sevenSegDecoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sevenSegDecoder
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/cdwil/Desktop/ECE281/ece281_colton_willits/Lab2/top_basys3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity top_basys3

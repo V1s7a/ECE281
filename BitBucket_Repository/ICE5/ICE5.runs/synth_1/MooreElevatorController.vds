@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Mar 29 14:37:16 2021
+# Process ID: 21208
+# Current directory: C:/Users/C23Colton.Willits/Desktop/ECE281/ece281_colton_willits/ICE5/ICE5.runs/synth_1
+# Command line: vivado.exe -log MooreElevatorController.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MooreElevatorController.tcl
+# Log file: C:/Users/C23Colton.Willits/Desktop/ECE281/ece281_colton_willits/ICE5/ICE5.runs/synth_1/MooreElevatorController.vds
+# Journal file: C:/Users/C23Colton.Willits/Desktop/ECE281/ece281_colton_willits/ICE5/ICE5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MooreElevatorController.tcl -notrace
+Command: synth_design -top MooreElevatorController -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18448 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 343.621 ; gain = 100.582
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MooreElevatorController' [C:/Users/C23Colton.Willits/Desktop/ECE281/ece281_colton_willits/ICE5/code/MooreElevatorController.vhd:84]
+ERROR: [Synth 8-690] width mismatch in assignment; target has 4 bits, source has 3 bits [C:/Users/C23Colton.Willits/Desktop/ECE281/ece281_colton_willits/ICE5/code/MooreElevatorController.vhd:110]
+ERROR: [Synth 8-285] failed synthesizing module 'MooreElevatorController' [C:/Users/C23Colton.Willits/Desktop/ECE281/ece281_colton_willits/ICE5/code/MooreElevatorController.vhd:84]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 398.039 ; gain = 155.000
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 29 14:37:33 2021...

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C23Colton.Willits/Desktop/ECE281/ece281_colton_willits/ICE6/code/TDM4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TDM4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/C23Colton.Willits/Desktop/ECE281/ece281_colton_willits/ICE6/code/TDM4_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TDM4_tb
